@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "23004940"))
 API_HASH = os.environ.get("API_HASH", "25c013f901474cffcad6a9d03e3a06bb")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002137018294"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "--1002377112139"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6885577739"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5079629749"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -31,7 +31,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://sunitverma080:HHLImVG2JPZnerVp@mightybot.hoc7sbn.mongodb.net/?retryWrites=true&w=majority&appName=MIGHTYBOT"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002431900364"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002377112139"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
