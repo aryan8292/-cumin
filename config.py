@@ -31,7 +31,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://sunitverma080:HHLImVG2JPZnerVp@mightybot.hoc7sbn.mongodb.net/?retryWrites=true&w=majority&appName=MIGHTYBOT"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002377112139"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
