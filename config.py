@@ -39,7 +39,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7208538115 6616938712").split()):
+    for x in (os.environ.get("ADMINS", "5079629749").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -59,8 +59,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Join Posting Channel From  @Direct_vid For More Links/Files!"
 
-ADMINS.append(6367302898)
-ADMINS.append(7208538115)
+ADMINS.append(5079629749)
+ADMINS.append(5079629749)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
