@@ -6,10 +6,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7445415339:AAFh72ocK3Wefe2NxCJpwSG2NTpHG5qZU3I")
 APP_ID = int(os.environ.get("APP_ID", "24466877"))
 API_HASH = os.environ.get("API_HASH", "403596c01ecce435211d06eda69e9ad6")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002138501086"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001517345433"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7321928194"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5079629749"))
 PORT = os.environ.get("PORT", "8050")
 
 #Database 
@@ -25,7 +25,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_to_Download_7x/35") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002189424685"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
