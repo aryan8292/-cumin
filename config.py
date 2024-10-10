@@ -13,8 +13,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5079629749"))
 PORT = os.environ.get("PORT", "8050")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://skeleton100005:p7b6jTcUUvnaTIOu@cluster0.mcskqeq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
+DB_URI = "mongodb+srv://skeleton100005:p7b6jTcUUvnaTIOu@cluster0.mcskqeq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #Shortner (token system) 
 
