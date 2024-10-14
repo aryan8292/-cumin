@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7445415339:AAFh72ocK3Wefe2NxCJpwSG2NTpHG5qZU3I")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6903933298:AAGj1BINIVcoOXghXC-IuOI4xs7TNt0w2U8")
 APP_ID = int(os.environ.get("APP_ID", "24466877"))
 API_HASH = os.environ.get("API_HASH", "403596c01ecce435211d06eda69e9ad6")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001517345433"))
@@ -13,8 +13,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5079629749"))
 PORT = os.environ.get("PORT", "8050")
 
 #Database 
-DB_URI = "mongodb+srv://skeleton100005:p7b6jTcUUvnaTIOu@cluster0.mcskqeq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = "mongodb+srv://theamanchaudhary:updatesbyaman@cluster0.ifawmpn.mongodb.net/?retryWrites=true&w=majority"
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
 
@@ -42,7 +42,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @codeflix_bots</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ </b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
